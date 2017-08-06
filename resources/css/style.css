@@ -182,6 +182,50 @@ a {
   padding: 0rem;
 }
 
+/* Tablet version */
+
+@media only screen and (max-width: 1032px) {
+  .banner {
+    height: 22rem;
+  }
+
+  .header {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .motto {
+    width: 100%;
+  }
+
+  .motto-box h1 {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .texts {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .text-box {
+    width: 40%;
+  }
+
+  #philosophy,
+  #hours {
+    margin: 0px;
+  }
+
+  .copy {
+    width: 100%;
+  }
+}
+
+
+/* Mobile version */
+
 @media only screen and (max-width: 700px) {
   .banner {
     height: 17rem;
@@ -191,10 +235,6 @@ a {
   .header {
     width: 100%;
     margin: 0rem;
-  }
-
-  .logo h3 {
-    display: none;
   }
 
   .nav {
@@ -219,6 +259,7 @@ a {
   .motto-box h1 {
     font-size: 1rem;
     padding: 1rem;
+    margin: 0rem;
     margin-top: 9rem;
     text-align: center;
   }
@@ -276,5 +317,15 @@ a {
   .copy h3 {
     display: none;
   }
+
+}
+
+/* Small Mobiles */
+
+@media only screen and (max-width: 480px) {
+
+    .logo h3 {
+      display: none;
+    }
 
 }
