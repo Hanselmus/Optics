@@ -1,0 +1,83 @@
+/* 00:48:00 */
+
+/* border for DIVs for alignment */
+
+div {
+  border: 1px solid red;
+}
+
+/* Real CSS */
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.banner {
+  width: 100%;
+  height: 31rem;
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  background-color: Cadetblue;
+  margin: 1rem 2rem;
+  color: White;
+}
+
+.logo {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.logo h3 {
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: inline-flex;
+}
+
+.nav li {
+  padding-right: 2rem;
+}
+
+.motto {
+  width: 1032px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.motto-box h1 {
+  font-size: 2rem;
+  padding: 1.5rem 5rem;
+  background-color: White;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10rem;
+}
