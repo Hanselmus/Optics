@@ -36,7 +36,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: Cadetblue;
-  margin: 1rem 2rem;
+  margin: 1rem 0rem;
   color: White;
 }
 
@@ -72,6 +72,11 @@ a {
   text-decoration: none;
   color: White;
 }
+
+#mobile {
+  display: none;
+}
+
 .motto {
   width: 1032px;
   display: flex;
@@ -175,4 +180,101 @@ a {
 
 .copy h3 {
   padding: 0rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .banner {
+    height: 17rem;
+    background-position: left;
+  }
+
+  .header {
+    width: 100%;
+    margin: 0rem;
+  }
+
+  .logo h3 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .motto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .motto-box {
+    width: 100%;
+  }
+
+  .motto-box h1 {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 9rem;
+    text-align: center;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+  }
+
+  .box {
+    margin: 0.77rem;
+    height: auto;
+  }
+
+  .img {
+    height: auto;
+  }
+
+  .box p {
+    font-size: 0.77rem;
+  }
+
+  .texts {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .text-box {
+    width: 100%;
+  }
+
+  #philosophy,
+  #hours {
+    margin: 0px;
+  }
+
+  .text-box h2 {
+    text-align: center;
+    width: auto;
+    padding: 0.5rem;
+  }
+
+  .text-box p {
+    font-size: 0.77rem;
+    margin: 1rem 0.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .copy {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .copy h3 {
+    display: none;
+  }
+
 }
