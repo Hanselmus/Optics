@@ -1,12 +1,11 @@
-/* 00:48:00 */
+/* ~03:35:00 */
 
-/* border for DIVs for alignment */
+/* border for DIVs for alignment
 
 div {
   border: 1px solid red;
 }
-
-/* Real CSS */
+*/
 
 html {
   font-size: 18px;
@@ -169,8 +168,8 @@ a {
   background-color: Azure;
   display: flex;
   align-items: center;
+  margin: 0rem;
   margin-top: 5rem;
-  margin-left: 0rem;
 }
 
 .copy img {
@@ -220,10 +219,9 @@ a {
 
   .copy {
     width: 100%;
+    margin-top: 3rem;
   }
 }
-
-
 /* Mobile version */
 
 @media only screen and (max-width: 700px) {
@@ -312,6 +310,11 @@ a {
   .copy {
     width: 100%;
     justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .copy img {
+    padding: 2rem 0rem;
   }
 
   .copy h3 {
